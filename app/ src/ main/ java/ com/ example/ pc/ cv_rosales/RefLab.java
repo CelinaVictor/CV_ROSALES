@@ -10,17 +10,17 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class RefLab extends AppCompatActivity {
-
+//letra 
     private TextView textRl;
     private Typeface Inked;
-
+//botones
     Button dtl, grl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ref_lab);
-
+//fuente del textview
         String fuenteRefl ="fuente/Inked.ttf";
         this.Inked = Typeface.createFromAsset(getAssets(),fuenteRefl);
         textRl = (TextView) findViewById(R.id.tvREFLab);

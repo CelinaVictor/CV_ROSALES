@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-
+// en xml se creo una pantalla con el formato de bienvenida que redirige para que  se vaya a crea //cv
     private TextView texto1;
     private Typeface fresty;
 
@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+//fuente de el titulo de bienvenida
         String fuente1 ="fuente/fresty.ttf";
         this.fresty = Typeface.createFromAsset(getAssets(),fuente1);
         texto1 = (TextView) findViewById(R.id.tvbinv);

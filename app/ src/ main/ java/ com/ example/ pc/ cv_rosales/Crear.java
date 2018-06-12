@@ -10,7 +10,7 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 
 public class Crear extends AppCompatActivity {
-
+//se utilizaron en el xml layout para formar un menu  que me sirva como guia los formularios que hay que llenar
     private TextView textcv;
     private Typeface Inked, Pacific;
 

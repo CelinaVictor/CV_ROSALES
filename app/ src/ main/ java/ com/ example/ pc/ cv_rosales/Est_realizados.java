@@ -18,7 +18,7 @@ public class Est_realizados extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_est_realizados);
-
+//cambio de tipo de fuente
         String fuenteer ="fuente/Inked.ttf";
         this.Inked = Typeface.createFromAsset(getAssets(),fuenteer);
         textER = (TextView) findViewById(R.id.tvEst);

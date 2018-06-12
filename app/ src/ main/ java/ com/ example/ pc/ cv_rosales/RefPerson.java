@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class RefPerson extends AppCompatActivity {
-
+//se creo para el xml para guardar los datos de la referencia personales
     private TextView textRp;
     private Typeface Inked;
 
